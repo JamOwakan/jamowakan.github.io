@@ -63,8 +63,8 @@ a:hover{
     font-weight: bold;
     text-align: center;
     margin: auto;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
     font-size: 18px;
 }
 .text > p{
@@ -90,6 +90,7 @@ a:hover{
     padding: 2em;
     display: grid;
     place-items: center;
+   
 }
 
 span>img{
