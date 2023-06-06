@@ -2,7 +2,7 @@
     margin: 0;
 }
 body{
-    background-image: url(BACK.jpeg.png);
+    background-image: url(IMGE/BACK.jpeg.png);
     
 }
 html{
@@ -40,7 +40,7 @@ a:hover{
 }
 .container img{
     height: 80%;
-    width: 50%;
+    width: 60%;
     padding: 10px 10px 100px 200px;
 }
 
