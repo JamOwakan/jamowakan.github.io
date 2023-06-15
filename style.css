@@ -145,11 +145,168 @@ footer{
 }
 
 @media screen and (max-width: 760px) {
-  /* Update your CSS styles for smaller screens here */
-
-  /* Example */
-  .container img 
-
   
+* {
+  margin: 0;
+}
 
-    }
+body {
+  background-image: url(IMGE/BACK.jpeg.png);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/*navigation bar style*/
+nav {
+  align-items: center;
+  background-color: #643843;
+  box-shadow: 1px 2px 3px #E7CBCB;
+}
+
+ul {
+  display: flex;
+  list-style-type: none;
+}
+
+li {
+  margin: 1em;
+}
+
+a {
+  text-decoration: none;
+  color: #E7CBCB;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bolder;
+}
+
+a:hover {
+  color: rgb(255, 255, 255);
+}
+
+/* Home style */
+.container {
+  display: flex;
+  height: 90vh;
+}
+
+.container img {
+  height: 80%;
+  width: 70%;
+  padding: 20px 10px 50px 200px;
+}
+
+.content {
+  display: grid;
+  place-items: center;
+}
+
+.content-text {
+  color: #d64e70;
+  font-size: 24px;
+}
+
+/*about style*/
+.about {
+  display: flex;
+}
+
+.text-about > p {
+  font-family: Verdana, sans-serif;
+  line-height: 2em;
+  width: 70%;
+  font-weight: bold;
+  text-align: center;
+  margin: auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-size: 18px;
+}
+
+.text > p {
+  width: 70%;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: bold;
+  line-height: 1.5em;
+}
+
+/*skills style */
+.wrap {
+  margin-top: 1em;
+  height: 50vh;
+}
+
+h2 {
+  width: 100%;
+  text-align: center;
+  text-decoration: underline 1px solid #643843;
+  cursor: pointer;
+}
+
+.skills {
+  padding: 2em;
+  display: grid;
+  place-items: center;
+}
+
+span > img {
+  width: 100px;
+  margin: 1em;
+}
+
+hr {
+  height: 5px;
+  background-color: #C88EA7;
+}
+
+.social > span > img {
+  width: 30px;
+}
+
+/*work style*/
+.project-img-container {
+  display: grid;
+  place-items: center;
+}
+
+.project {
+  padding: 1em;
+}
+
+.project > span {
+  display: flex;
+  align-items: center;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.projects > span > img {
+  width: 250px;
+  margin: 1em;
+}
+
+/*social/footer style*/
+footer {
+  background-color: #524c4c;
+}
+
+.social > span {
+  height: 2em;
+}
+
+.social {
+  justify-content: space-around;
+  display: flex;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  margin: auto;
+  border-top: 1px solid #C88EA7;
+}
+
+.social > span {
+  display: flex;
+  align-items: center;
+}
+
+
+
+}
